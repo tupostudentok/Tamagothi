@@ -24,19 +24,6 @@ private:
     int HAPPINESS_POINTS = 100;
 
 
-    /*void changeTamagotchi(){
-        time_t oldTime = time(NULL);
-        while(true){
-            time_t newTime = time(NULL);
-            if (oldTime - newTime == 59){
-                HEAL_POINTS--;
-                FATIGUE_POINTS++;
-                HAPPINESS_POINTS--;
-                oldTime = newTime;
-            }
-        } 
-    }*/
-
     string changeScale(int& field){
         map<int, string> processBar {
                     {0, "[                     ]"},
